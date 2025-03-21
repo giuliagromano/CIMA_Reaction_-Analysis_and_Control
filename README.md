@@ -38,28 +38,28 @@ This system has only one equilibrium point:
 \end{aligned}
 ```
 ### System Stability in PPlane
-In order to classify the equilibrium point and to study its stability, three different values of \(b\) are considered:
+In order to classify the equilibrium point and to study its stability, three different values of b are considered:
 - $b= 0.1$, where the equilibrium is an unstable node surrounding by a stable Limit Cycle.
 <div align="center">
-  <img src="./media/pplane_b0_1_diag.jpg" alt="Phase Portrait of the System when $b=0.1$. The trajectories initially diverge from the equilibrium and then they are attracted to the stable limit cycle." width="30%">
-  <p><em>Phase Portrait of the System when $b= 0.1$</em></p>
+  <img src="./media/pplane_b0_1_diag.jpg" alt="Phase Portrait of the System when b=0.1. The trajectories initially diverge from the equilibrium and then they are attracted to the stable limit cycle." width="30%">
+  <p><em>Phase Portrait of the System when b= 0.1</em></p>
 </div>
-- **b= 2**, where the equilibrium is an unstable spiral surrounding by a stable Limit Cycle.
+- b=2, where the equilibrium is an unstable spiral surrounding by a stable Limit Cycle.
 <div align="center">
-  <img src="./media/pplane_b2_diag.jpg" alt="Phase Portrait of the System when $b=2$. The trajectories are firstly repelled by the unstable equilibrium, then they are attracted to the stable limit cycle." width="30%">
-  <p><em>Phase Portrait of the System when $b= 2$</em></p>
+  <img src="./media/pplane_b2_diag.jpg" alt="Phase Portrait of the System when b=2. The trajectories are firstly repelled by the unstable equilibrium, then they are attracted to the stable limit cycle." width="30%">
+  <p><em>Phase Portrait of the System when b= 2</em></p>
 </div>
-- $b= 5$, where the equilibrium is a stable spiral. 
+- b=5, where the equilibrium is a stable spiral. 
   <div align="center">
-  <img src="./media/pplane_b5_diag.jpg" alt="Phase Portrait of the System when $b=5$. The trajectories are attracted by the stable spiral." width="30%">
-  <p><em>Phase Portrait of the System when $b=5$</em></p>
+  <img src="./media/pplane_b5_diag.jpg" alt="Phase Portrait of the System when b=5. The trajectories are attracted by the stable spiral." width="30%">
+  <p><em>Phase Portrait of the System when b=5</em></p>
   </div>
   
 ### Bifurcation Analysis in MatCont
-MatCont reveals that an Hopf bifurcation occurs at $b=3.5%
+MatCont reveals that an Hopf bifurcation occurs at b=3.5
 <div align="center">
-  <img src="./media/matcont_bif.jpg" alt="Hopf bifurcation at $b= 3.5$." width="30%">
-  <p><em>Hopf bifurcation at $b= 3.5$</em></p>
+  <img src="./media/matcont_bif.jpg" alt="Hopf bifurcation at b= 3.5." width="30%">
+  <p><em>Hopf bifurcation at b= 3.5</em></p>
 </div>
 
 ## Control Synthesis 
@@ -87,21 +87,21 @@ For this purpose, three different controllers have been implemented, one linear 
 - **Controller Comparison and Robustness Analysis:**
 - Constant Input Reference $x_{1d} = 5$
 <div align="center">
-  <img src="./media/Comparison_const_ref.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5$ without parametric uncertainties or disturbances." width="50%">
+  <img src="./media/Comparison_const_ref.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5$ without parametric uncertainties or disturbances." width="35%">
   <p><em>Controllers' Performance comparison with $x_{1d} = 5$ </em></p>
 </div> 
-- Sinusoidal Input Reference $x_{1d} = 5+0.5\sin(2t)$
+- Sinusoidal Input Reference $x_{1d} = 5+0.5sin(2t)$
 <div align="center">
-  <img src="./media/Comparison_sin_ref.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5+0.5\sin(2t)$ without parametric uncertainties or disturbances." width="50%">
+  <img src="./media/Comparison_sin_ref.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5+0.5\sin(2t)$ without parametric uncertainties or disturbances." width="35%">
   <p><em>Controllers' Performance comparison with $x_{1d} = 5+0.5\sin(2t)$ </em></p>
 </div> 
 - Constant Input Reference $x_{1d} = 5$ with a input disturbance 
 <div align="center">
-  <img src="./media/Comparison_dist.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5$ and a disturbance applied on the input $d(t)=0.6\sin(t)$." width="50%">
+  <img src="./media/Comparison_dist.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5$ and a disturbance applied on the input $d(t)=0.6\sin(t)$." width="35%">
   <p><em> Controllers' Performance comparison with $x_{1d} = 5$ and a disturbance applied on the input $d(t)=0.6\sin(t)$. </em></p>
 </div> 
 - Constant Input Reference $x_{1d} = 5$ under parametric uncertainties 20%
 <div align="center">
-  <img src="./media/Comparison_dist.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5$ with parametric uncertainties of 20\%." width="50%">
+  <img src="./media/Comparison_dist.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5$ with parametric uncertainties of 20\%." width="350%">
   <p><em>Controllers' Performance comparison with $x_{1d} = 5$ with parametric uncertainties of 20\%. </em></p>
 </div> 
