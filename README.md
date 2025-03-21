@@ -74,42 +74,35 @@ For this purpose, three different controllers have been implemented, one linear 
 ### Linear LQ Optimal Control (linearized around the equilibrium point)
 <div align="center">
 <img src="./media/LQ_schema.jpg" alt="Control Scheme with the LQ Optimal Controller." width="60%">
-  <p><em>Control Scheme with the LQ Optimal Controller.</em></p>
 </div>
 
 ### I/O Feedback Linearization Control
 <div align="center">
 <img src="./media/FBL_schema.jpg" alt="Control Scheme with the I/O Feedback Linearization Controller." width="60%">
-  <p><em>Control Scheme with the the I/O Feedback Linearization Controller.</em></p>
 </div>
 
 ### Sliding Mode Control
 <div align="center">
 <img src="./media/SM_schema.jpg" alt="Control Scheme with the Sliding Mode Controller." width="60%">
-  <p><em>Control Scheme with the the Sliding Mode Controller.</em></p>
 </div>
 
 ## Controller Comparison and Robustness Analysis
 ### Constant Input Reference $x_{1d} = 5$
 <div align="center">
   <img src="./media/Comparison_const_ref.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5$ without parametric uncertainties or disturbances." width="35%">
-  <p><em>Controllers' Performance comparison with $x_{1d} = 5$ </em></p>
 </div> 
 
 ### Sinusoidal Input Reference $x_{1d}=5+0.5sin(2t)$
 <div align="center">
   <img src="./media/Comparison_sin_ref.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5+0.5\sin(2t)$ without parametric uncertainties or disturbances." width="35%">
-  <p><em>Controllers' Performance comparison with $x_{1d} = 5+0.5\sin(2t)$ </em></p>
 </div> 
 
 ### Constant Input Reference $x_{1d} = 5$ with a input disturbance 
 <div align="center">
   <img src="./media/Comparison_dist.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5$ and a disturbance applied on the input $d(t)=0.6\sin(t)$." width="35%">
-  <p><em> Controllers' Performance comparison with $x_{1d} = 5$ and a disturbance applied on the input $d(t)=0.6\sin(t)$. </em></p>
 </div> 
 
 ### Constant Input Reference $x_{1d} = 5$ under parametric uncertainties 20%
 <div align="center">
   <img src="./media/Comparison_dist.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5$ with parametric uncertainties of 20\%." width="35%">
-  <p><em>Controllers' Performance comparison with $x_{1d} = 5$ with parametric uncertainties of 20\%. </em></p>
 </div> 
