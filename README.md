@@ -86,7 +86,7 @@ For this purpose, three different controllers have been implemented, one linear 
 <img src="./media/SM_schema.jpg" alt="Control Scheme with the Sliding Mode Controller." width="60%">
 </div>
 
-## Controller Comparison and Robustness Analysis
+## Controllers Comparison and Robustness Analysis
 ### Constant Input Reference $x_{1d} = 5$
 <div align="center">
   <img src="./media/Comparison_const_ref.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5$ without parametric uncertainties or disturbances." width="35%">
