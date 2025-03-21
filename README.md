@@ -5,7 +5,7 @@ The complete report is available [here](./CIMA_Reaction_ROMANO.pdf).
 ## Nonlinear Model of the CIMA Reaction
 In 1990, Lengyel et al. proposed and analyzed a particularly elegant model of another oscillating reaction, the chlorine dioxide-iodine-malonic acid $(ClO_2-I_2-MA)$. This reaction mixture contains chlorine dioxide $(ClO_2)$, iodine $(I_2)$ and malonic acid $(MA)$. Lengyel's group demostrated how these components interact and evolve within the system.
 <div align="center">
-  <img src="./media/Chemical_React.jpg" alt="CIMA Reactions and Empirical Rate Laws" width="30%">
+  <img src="./media/Chemical_React.jpg" alt="CIMA Reactions and Empirical Rate Laws" width="50%">
   <p><em>CIMA Reactions and Empirical Rate Laws</em></p>
 </div>
 Thanks to some semplification, the Nonlinear Model describing the CIMA Reaction is:
@@ -42,7 +42,7 @@ Fixing $a= 10$ and varying parameter $b$, it is possible to see how the equilibr
   <img src="./media/pplane_b0_1_diag.jpg" alt="Phase Portrait of the System when $b= 0.1$. The trajectories initially diverge from the equilibrium and then they are attracted to the stable limit cycle." width="30%">
   <p><em>Phase Portrait of the System when $b= 0.1$</em></p>
 </div>
-- $b= 2$, where the equilibrium is an unstable spiral surrounding by a stable Limit Cycle.
+- $b= 2.0$, where the equilibrium is an unstable spiral surrounding by a stable Limit Cycle.
 <div align="center">
   <img src="./media/pplane_b2_diag.jpg" alt="Phase Portrait of the System when $b= 2$. The trajectories are firstly repelled by the unstable equilibrium, then they are attracted to the stable limit cycle." width="30%">
   <p><em>Phase Portrait of the System when $b= 2$</em></p>
