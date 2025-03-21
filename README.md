@@ -25,7 +25,8 @@ Where:
 
 ## Open Loop Analysis 
 Fixing $a= 10$ and varying parameter $b$, it is possible to see how the equilibrium point of the system changes.
-- **Equilibrium Point:** This system has only one equilibrium point:
+### Equilibrium Point
+This system has only one equilibrium point:
  ```math
 \begin{aligned}
 \bar{x} = \begin{bmatrix}
@@ -36,22 +37,25 @@ Fixing $a= 10$ and varying parameter $b$, it is possible to see how the equilibr
 
 \end{aligned}
 ```
-- **System Stability in PPlane:** In order to classify the equilibrium point and to study its stability, three different values of \(b\) are considered:
+### System Stability in PPlane
+In order to classify the equilibrium point and to study its stability, three different values of \(b\) are considered:
 - $b= 0.1$, where the equilibrium is an unstable node surrounding by a stable Limit Cycle.
 <div align="center">
   <img src="./media/pplane_b0_1_diag.jpg" alt="Phase Portrait of the System when $b=0.1$. The trajectories initially diverge from the equilibrium and then they are attracted to the stable limit cycle." width="30%">
   <p><em>Phase Portrait of the System when $b= 0.1$</em></p>
 </div>
-- $b$$=$ $2$, where the equilibrium is an unstable spiral surrounding by a stable Limit Cycle.
+- $b= 2$, where the equilibrium is an unstable spiral surrounding by a stable Limit Cycle.
 <div align="center">
   <img src="./media/pplane_b2_diag.jpg" alt="Phase Portrait of the System when $b=2$. The trajectories are firstly repelled by the unstable equilibrium, then they are attracted to the stable limit cycle." width="30%">
   <p><em>Phase Portrait of the System when $b= 2$</em></p>
 </div>
-- **b = 5**, where the equilibrium is a stable spiral. 
+- $b= 5$, where the equilibrium is a stable spiral. 
   <img src="./media/pplane_b5_diag.jpg" alt="Phase Portrait of the System when $b=5$. The trajectories are attracted by the stable spiral." width="30%">
   <p><em>Phase Portrait of the System when $b=5$</em></p>
   </div>
-- **Bifurcation Analysis in MatCont:** MatCont reveals that an Hopf bifurcation occurs at $b=3.5%
+  
+### Bifurcation Analysis in MatCont
+MatCont reveals that an Hopf bifurcation occurs at $b=3.5%
 <div align="center">
   <img src="./media/matcont_bif.jpg" alt="Hopf bifurcation at $b= 3.5$." width="30%">
   <p><em>Hopf bifurcation at $b= 3.5$</em></p>
