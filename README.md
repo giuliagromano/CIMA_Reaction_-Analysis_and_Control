@@ -72,14 +72,17 @@ y=x_1
 with two separately input references (constant and sinusoidal) with the desired specifications. 
 For this purpose, three different controllers have been implemented, one linear and two nonlinear:
 - Linear LQ Optimal Control (linearized around the equilibrium point)
+<div align="center">
 <img src="./media/LQ_schema.jpg" alt="Control Scheme with the LQ Optimal Controller." width="60%">
   <p><em>Control Scheme with the LQ Optimal Controller.</em></p>
 </div>
 - I/O Feedback Linearization Control
+<div align="center">
 <img src="./media/FBL_schema.jpg" alt="Control Scheme with the I/O Feedback Linearization Controller." width="60%">
   <p><em>Control Scheme with the the I/O Feedback Linearization Controller.</em></p>
 </div>
 - Sliding Mode Control
+<div align="center">
 <img src="./media/SM_schema.jpg" alt="Control Scheme with the Sliding Mode Controller." width="60%">
   <p><em>Control Scheme with the the Sliding Mode Controller.</em></p>
 </div>
@@ -90,7 +93,7 @@ For this purpose, three different controllers have been implemented, one linear 
   <img src="./media/Comparison_const_ref.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5$ without parametric uncertainties or disturbances." width="35%">
   <p><em>Controllers' Performance comparison with $x_{1d} = 5$ </em></p>
 </div> 
-- Sinusoidal Input Reference $x_{1d} = 5+0.5sin(2t)$
+- Sinusoidal Input Reference $x_{1d}=5+0.5sin(2t)$
 <div align="center">
   <img src="./media/Comparison_sin_ref.jpg" alt="Performance comparison of LQ, FBL and SM Controllers with $x_{1d} = 5+0.5\sin(2t)$ without parametric uncertainties or disturbances." width="35%">
   <p><em>Controllers' Performance comparison with $x_{1d} = 5+0.5\sin(2t)$ </em></p>
